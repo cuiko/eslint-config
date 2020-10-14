@@ -1,10 +1,7 @@
 {
   "name": "@cuiko/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Public Eslint Config.",
-  "scripts": {
-    "publish": "npm publish --access public"
-  },
   "main": "index.js",
   "repository": "https://github.com/cuiko/eslint-config.git",
   "author": "cuiko",
