@@ -2,17 +2,21 @@
   "name": "@cuiko/eslint-config",
   "version": "1.0.1",
   "description": "Public Eslint Config.",
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
   "main": "index.js",
   "repository": "https://github.com/cuiko/eslint-config.git",
   "author": "cuiko",
   "license": "MIT",
-  "private": "false",
   "keywords": [
-    "eslint"
+    "eslint",
+    "prettier"
   ],
   "files": [
     "base.js",
     "index.js",
+    "prettier.js",
     "typescript.js",
     "react.js",
     "vue.js"
