@@ -1,6 +1,10 @@
 module.exports = {
   extends: ['./base.js'],
   rules: {
+    // 生产模式下，禁止使用 console
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    // 生产模式下，禁止使用 debugger
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     /**
      * 禁止出现 foo['bar']，必须写成 foo.bar
      * @category Best Practices
@@ -180,14 +184,5 @@ module.exports = {
      * @reason alert 很常用
      */
     'no-alert': 'error',
-    /**
-     * 禁止拼写错误
-     */
-    'react/no-typos': 'error',
-    /**
-     * <button> 必须有 type 属性
-     * @category React
-     */
-    'react/button-has-type': 'error'
   }
 }

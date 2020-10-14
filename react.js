@@ -25,6 +25,14 @@ module.exports = {
     /**
      * HTML 中的自闭和标签禁止有 children
      */
-    'react/void-dom-elements-no-children': 'error'
+    'react/void-dom-elements-no-children': 'error',
+    /**
+     * 禁止拼写错误
+     */
+    'react/no-typos': 'error',
+    /**
+     * <button> 必须有 type 属性
+     */
+    'react/button-has-type': 'error'
   }
 }
