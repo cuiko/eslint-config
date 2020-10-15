@@ -1,3 +1,5 @@
+// .prettierrc.js
+// 配置只在IDE启动时生效，如果启动期间修改配置，需要重启IDE
 module.exports = {
   parser: 'babel-eslint',
   parserOptions: {
