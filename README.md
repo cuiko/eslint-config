@@ -8,7 +8,7 @@
 - [x] Vue
 - [x] Prettier
 
-===
+------
 
 ## Install
 
@@ -19,7 +19,7 @@ npm i @cuiko/eslint-config -D
 yarn add @cuiko/eslint-config -D
 ```
 
-===
+------
 
 ## Dependency
 
@@ -97,7 +97,7 @@ npm i prettier eslint-config-prettier -D
 yarn add prettier eslint-config-prettier -D
 ```
 
-===
+------
 
 ## Usage
 
