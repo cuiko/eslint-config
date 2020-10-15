@@ -8,6 +8,8 @@
 - [x] Vue
 - [x] Prettier
 
+===
+
 ## Install
 
 ```shell
@@ -16,6 +18,8 @@ npm i @cuiko/eslint-config -D
 # yarn
 yarn add @cuiko/eslint-config -D
 ```
+
+===
 
 ## Dependency
 
@@ -91,4 +95,66 @@ yarn add prettier eslint-plugin-prettier -D
 npm i prettier eslint-config-prettier -D
 # yarn
 yarn add prettier eslint-config-prettier -D
+```
+
+===
+
+## Usage
+
+### Use Prettier Config
+
+```js
+// .prettierrc.js
+module.exports = {
+  ...require('@cuiko/eslint-config/prettier-config')
+}
+```
+
+#### Use Prettier Plugin
+
+> Exec Eslint with Prettier
+
+```js
+// .eslintrc.js
+module.exports = {
+  extends: ['@cuiko/eslint-config/prettier-plugin'],
+}
+```
+
+#### Use Prettier Extend
+
+> Prettier Extend
+
+```js
+// .eslintrc.js
+module.exports = {
+  extends: ['@cuiko/eslint-config/prettier-extend'],
+}
+```
+
+### Use React Config
+
+```js
+// .eslintrc.js
+module.exports = {
+  extends: ['@cuiko/eslint-config/react'],
+}
+```
+
+### Use Vue Config
+
+```js
+// .eslintrc.js
+module.exports = {
+  extends: ['@cuiko/eslint-config/vue'],
+}
+```
+
+### Use TypeScript Config
+
+```js
+// .eslintrc.js
+module.exports = {
+  extends: ['@cuiko/eslint-config/typescript'],
+}
 ```
