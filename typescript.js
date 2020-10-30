@@ -6,8 +6,9 @@ module.exports = {
     /**
      * 接口名称必须已 I 开头
      * @category TypeScript
+     * @deprecated typescript-eslint已从推荐剔除，并且 TS 官方也说明，并不推荐这样限制
      */
-    '@typescript-eslint/interface-name-prefix': ['error', 'always'],
+    // '@typescript-eslint/interface-name-prefix': ['error', 'always'],
     /**
      * 禁止出现未使用的变量
      * @category TypeScript

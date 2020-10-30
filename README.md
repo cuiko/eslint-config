@@ -21,9 +21,9 @@ yarn add @cuiko/eslint-config -D
 
 ------
 
-## Dependency
+## Dependencies
 
-### Eslint Support
+### 1. Eslint Support
 
 ```shell
 # npm
@@ -41,7 +41,7 @@ npm i babel-eslint -D
 yarn add babel-eslint -D
 ```
 
-### TypeScript Support
+### 2. TypeScript Support
 
 ```shell
 # npm
@@ -50,7 +50,7 @@ npm i @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
 yarn add @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
 ```
 
-### React Support
+### 3. React Support
 
 ```shell
 # npm
@@ -59,7 +59,7 @@ npm i eslint-plugin-react -D
 yarn add eslint-plugin-react -D
 ```
 
-### Vue Support
+### 4. Vue Support
 
 ```shell
 # npm
@@ -68,7 +68,7 @@ npm i eslint-plugin-vue -D
 yarn add eslint-plugin-vue -D
 ```
 
-### Prettier Support
+### 5. Prettier Support
 
 > If you `IDE` have been supported, you don't have to execute the following command.
 
@@ -101,7 +101,7 @@ yarn add prettier eslint-config-prettier -D
 
 ## Usage
 
-### Use Prettier Config
+### 1. Use Prettier Config
 
 ```js
 // .prettierrc.js
@@ -132,7 +132,7 @@ module.exports = {
 }
 ```
 
-### Use React Config
+### 2. Use React Config
 
 ```js
 // .eslintrc.js
@@ -141,7 +141,7 @@ module.exports = {
 }
 ```
 
-### Use Vue Config
+### 3. Use Vue Config
 
 ```js
 // .eslintrc.js
@@ -150,7 +150,7 @@ module.exports = {
 }
 ```
 
-### Use TypeScript Config
+### 4. Use TypeScript Config
 
 ```js
 // .eslintrc.js

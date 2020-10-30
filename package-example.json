@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx,.vue --ignore-path .eslintignore .",
+    "lint-f": "eslint --fix --ext .js,.jsx,.ts,.tsx,.vue --ignore-path .eslintignore ."
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx,js,jsx,vue}": [
+      "prettier --write",
+      "npm run lint-f",
+      "git add"
+    ]
+  }
+}
