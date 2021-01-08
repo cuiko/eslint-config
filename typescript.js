@@ -1,6 +1,7 @@
 module.exports = {
-  extends: ['./index.js'],
-  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    parser: '@typescript-eslint/parser',
+  },
   plugins: ['@typescript-eslint'],
   rules: {
     /**

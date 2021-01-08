@@ -1,7 +1,0 @@
-{
-  "src/**/*.{ts,tsx,js,jsx,vue}": [
-    "prettier --write",
-    "npm run lint-f",
-    "git add"
-  ]
-}

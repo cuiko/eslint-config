@@ -63,9 +63,9 @@ yarn add eslint-plugin-react -D
 
 ```shell
 # npm
-npm i eslint-plugin-vue -D
+npm i eslint-plugin-vue vue-eslint-parser -D
 # yarn
-yarn add eslint-plugin-vue -D
+yarn add eslint-plugin-vue vue-eslint-parser -D
 ```
 
 ### 5. Prettier Support
