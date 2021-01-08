@@ -1,6 +1,6 @@
 {
   "name": "@cuiko/eslint-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Public Eslint Config.",
   "main": "index.js",
   "repository": "https://github.com/cuiko/eslint-config.git",
@@ -23,7 +23,9 @@
     "prettier-config.js",
     "prettier-extend.js",
     "prettier-plugin.js",
-    ".prettierignore"
+    ".prettierignore",
+    ".huskyrc",
+    ".lintstagedrc"
   ],
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "1.13.0",

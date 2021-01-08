@@ -25,6 +25,21 @@ module.exports = {
       }
     ],
     /**
+     * 书写多行对象/数组等末尾项必须要有尾逗号
+     * @category Stylistic Issues
+     * @fixable
+     */
+    'comma-dangle': [
+      'error',
+      {
+        arrays: 'always-multiline',
+        objects: 'always-multiline',
+        imports: 'always-multiline',
+        exports: 'always-multiline',
+        functions: 'ignore',
+      }
+    ],
+    /**
      * 命名函数表达式括号前禁止有空格，箭头函数表达式括号前面必须有一个空格
      * @category Stylistic Issues
      * @fixable
