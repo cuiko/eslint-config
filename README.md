@@ -137,7 +137,7 @@ module.exports = {
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: ['@cuiko/eslint-config/react'],
+  extends: ['@cuiko/eslint-config', '@cuiko/eslint-config/react'],
 }
 ```
 
@@ -146,7 +146,7 @@ module.exports = {
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: ['@cuiko/eslint-config/vue'],
+  extends: ['@cuiko/eslint-config', '@cuiko/eslint-config/vue'],
 }
 ```
 
@@ -154,7 +154,8 @@ module.exports = {
 
 ```js
 // .eslintrc.js
+// 当与 react/vue 组合使用时, typescript 的配置引用要在前两者后面
 module.exports = {
-  extends: ['@cuiko/eslint-config/typescript'],
+  extends: ['@cuiko/eslint-config', '@cuiko/eslint-config/typescript'],
 }
 ```
