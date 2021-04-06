@@ -1,6 +1,6 @@
 # eslint-config
 
-> Base on [eslint-config-for](https://github.com/kkfor/eslint-config-for).
+> Based on [eslint-config-for](https://github.com/kkfor/eslint-config-for).
 
 - [x] Eslint
 - [x] TypeScript
@@ -70,7 +70,7 @@ yarn add eslint-plugin-vue vue-eslint-parser -D
 
 ### 5. Prettier Support
 
-> If you `IDE` have been supported, you don't have to execute the following command.
+> If your `IDE` have been supported, you don't have to execute the following command.
 
 ```shell
 # npm

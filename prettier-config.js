@@ -1,4 +1,3 @@
-// 配置只在IDE启动时生效，如果启动期间修改配置，需要重启IDE
 // 参考: https://prettier.io/docs/en/options.html
 module.exports = {
   // 一行最多 100 字符
