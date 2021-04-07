@@ -23,7 +23,7 @@ module.exports = {
      */
     '@typescript-eslint/type-annotation-spacing': 'error',
     /**
-     * 接口和类型别名的成员之间必须使用分号分隔
+     * 接口和类型别名的成员之间不使用分隔符
      * @category TypeScript
      * @fixable
      */

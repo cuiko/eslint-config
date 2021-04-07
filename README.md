@@ -7,6 +7,7 @@
 - [x] React
 - [x] Vue
 - [x] Prettier
+- [x] Jest
 
 ------
 

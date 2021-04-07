@@ -1,5 +1,6 @@
 module.exports = {
   plugins: ['react'],
+  parser: '@typescript-eslint/parser',
   rules: {
     /**
      * jsx 文件必须导入 React
